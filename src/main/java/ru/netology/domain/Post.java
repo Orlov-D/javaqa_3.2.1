@@ -19,5 +19,9 @@ public class Post {
     private boolean isSigned;
     private boolean isAdvertising;
 
+    private boolean canDelete;
+
+
+
     // + getters/setters*
 }
