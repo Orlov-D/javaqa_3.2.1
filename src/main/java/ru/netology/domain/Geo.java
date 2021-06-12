@@ -4,5 +4,6 @@ public class Geo<Place> {
     private String type;
     private String coordinates;
     private Place place;
+    // + get/set на все поля
 
 }

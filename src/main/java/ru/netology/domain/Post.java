@@ -11,7 +11,7 @@ public class Post {
     private int replyPostId;
     private boolean friendsOnly;
     private String postType;
-    private int signedId;
+    private int signerId;
     private boolean canPin;
     private boolean canEdit;
     private boolean canDelete;
@@ -27,6 +27,10 @@ public class Post {
     private Like like;
     private Repost repost;
     private Viev viev;
+    private PostSource postSource;
 
+    public int getId() {
+        return id;
+    }
     // + getters/setters*
 }

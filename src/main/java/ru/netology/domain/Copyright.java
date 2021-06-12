@@ -5,4 +5,6 @@ public class Copyright {
     private String link;
     private String name;
     private String type;
+    // + get/set на все поля
+
 }
